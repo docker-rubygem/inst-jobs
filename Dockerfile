@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.11.5
+ENV VERSION=0.11.6
 
 RUN gem install inst-jobs --version ${VERSION} --no-format-exec
 
